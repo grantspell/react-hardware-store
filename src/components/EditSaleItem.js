@@ -8,10 +8,11 @@ class EditSaleItem extends Component {
           { this.props.editSaleItem ? 'Hide' : 'Edit Sale Item' }
         </button>
         <div>
-          { this.props.editSaleItem ? <input type="text"
-                placeholder={this.props.itemCurrentlyOnSale}
-                onChange={this.props.handleItemCurrentlyOnSaleChange}
-              />
+          { this.props.editSaleItem
+            ? <input type="text"
+              placeholder={this.props.itemCurrentlyOnSale}
+              onChange={this.props.handleItemCurrentlyOnSaleChange}
+            />
             : null}
         </div>
       </div>

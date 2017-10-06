@@ -28,7 +28,7 @@ class AdminView extends Component {
         <div>
           { this.state.productList.map((product, index) => {
             return (
-              <Product />
+              <Product key={index} productName={product.productName} price={product.price} description={product.description}/>
             )
           }) }
         </div>

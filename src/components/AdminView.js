@@ -22,6 +22,12 @@ class AdminView extends Component {
     }
   }
 
+  addProductToProductList = (newProduct) => {
+    const newProductList = [...this.state.productList]
+    newProductList.push(newProduct)
+    this.setState({productList: newProductList})
+  }
+
   render () {
     return (
       <div>

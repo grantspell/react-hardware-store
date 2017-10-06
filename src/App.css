@@ -37,7 +37,13 @@
 .products{
   border: 1px solid black;
   width: 60%;
-  min-height: 500px;
+  min-height: 600px;
   box-shadow: 1px 1px 3px black;
 }
 
+.cart {
+  border: 1px solid black;
+  width: 35%;
+  min-height: 600px;
+  box-shadow: 1px 1px 3px black;
+}

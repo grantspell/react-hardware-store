@@ -6,7 +6,6 @@ const Product = ({ productName, price, description }) => {
       <h3>{productName}</h3>
       <h4>${price}</h4>
       <p>{description}</p>
-      <button>Delete</button>
     </div>
   )
 }

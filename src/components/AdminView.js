@@ -41,7 +41,7 @@ class AdminView extends Component {
           }) }
         </div>
         <h2>Create A New Product</h2>
-        <AdminForm />
+        <AdminForm addProductToProductList={this.addProductToProductList} />
       </div>
     )
   }

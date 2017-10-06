@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import EditSaleItem from './EditSaleItem'
 
 class Header extends Component {
   constructor () {
@@ -25,12 +26,12 @@ class Header extends Component {
       <div>
         <h1>Hardware Store</h1>
         <p>Currently On Sale: {this.state.itemCurrentlyOnSale}</p>
-        <button onClick={this.toggleEditSaleItem}>
-          { this.state.editSaleItem ? 'Hide' : 'Edit Sale Item' }
-        </button>
-        <div>
-          {this.state.editSaleItem ? <input type="text" placeholder={this.state.itemCurrentlyOnSale} onChange={this.handleItemCurrentlyOnSaleChange}/> : null}
-        </div>
+        <EditSaleItem
+          toggleEditSaleItem={this.toggleEditSaleItem}
+          handleItemCurrentlyOnSaleChange={this.handleItemCurrentlyOnSaleChange}
+          editSaleItem={this.state.editSaleItem}
+          itemCurrentlyOnSale={this.state.itemCurrentlyOnSale}
+        />
       </div>
     )
   }

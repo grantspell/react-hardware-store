@@ -1,3 +1,9 @@
+
+<!-- REFERENCED THE SOLUTIONS PRETTY HEAVILY TO COMPLETE THE REACT HARDWARE STORE
+HOMEWORK OVER THE WEEKEND. TRIED TO REFACTOR MY COMPONENTS FOLDER/FILES 
+TO MATCH UP WITH THE SOLUTIONS LAYOUT, GOT MAJORLY CONFUSED/STUMPED, 
+COMPLETED ASSIGNMENT BASED OFF OF SOLUTIONS -->
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
